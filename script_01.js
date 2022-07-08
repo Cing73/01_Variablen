@@ -46,6 +46,23 @@
 
 //***** 04 Beispiel *******/
 
+// Deklartion
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
 
+let date = new Date();
+let year = new Date().getFullYear();
+console.log(year);
 
+// Wertzuweisung
+birthYearJohn = 1997;
+birthYearMark = 1992;
+
+// Berechnung
+ageJohn = year - birthYearJohn;
+ageMark = year - birthYearMark;
+
+// Ausgabe 
+console.log("ageJohn: " + ageJohn);
+console.log("ageMark: " + ageMark);
 
